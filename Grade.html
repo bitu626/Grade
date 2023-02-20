@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <script>
+        let a = parseInt(prompt("Enter first subject no:"));
+        let b = parseInt(prompt("Enter second subject no:"));
+        let c = parseInt(prompt("Enter third subject no:"));
+        let d = parseInt(prompt("Enter fourth subject no:"));
+        let e = parseInt(prompt("Enter fifth subject no:"));
+        let f = ((a + b + c + d + e) * 100) / 500;
+        if ((f >= 30) && (f <= 50)) {
+            document.write("Grade is C");
+        } else if ((f > 50) && (f <= 60)) {
+            document.write("Grade is B");
+        } else if ((f > 60) && (f <= 100)) {
+            document.write("Grade is A");
+        } else {
+            document.write("Grade is D");
+        }
+    </script>
+</body>
+
+</html>
